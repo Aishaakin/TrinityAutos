@@ -1,0 +1,36 @@
+.homepage_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* min-height: 100vh; */
+    padding: 20px;
+    
+}
+.text {
+    /* max-width: 400px;
+    margin-top: 30px; */
+    border: 5px soid rgb(54, 53, 53);
+}
+.main_car {
+    width: 40%;
+    height: auto;
+    
+}
+.home_button {
+    background-color: #109BDF;
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+h2 {
+    color: #303B40;
+    font-size: 30px;
+}
+p {
+    color: #677D88;
+    font-size: 12px;
+    /* width: 50%; */
+}
