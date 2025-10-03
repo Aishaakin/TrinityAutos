@@ -5,7 +5,13 @@
     justify-content: center;
     /* line-height: 100vh; */
     padding: 20px;
-    background-color: #F5FCFF
+    background-color: #F5FCFF;
+    margin-bottom: 30px;
+}
+.login_container p {
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 30px;
 }
 .form_create {
  display: flex;
@@ -29,11 +35,19 @@ input {
     background-color: #F5FCFF;
     border: none;
 }
+input:hover {
+    background-color: #F5FCFF;
+}
+input:focus {
+  background-color: transparent;
+  outline: none; 
+}
 .create_account_button {
     background-color: #109BDF;
     color: white;
     font-weight: 100;
     border-radius: 5px;
+    
 }
 .placeholder {
     color: #677D88;
@@ -44,3 +58,51 @@ h5 {
 p {
     color: #303B40;
 }
+.icon_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.facebook, .google {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 35px;
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.facebook, .google:hover {
+    cursor: pointer;
+    /* background-color: #109BDF; */
+}
+.login_container h6 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.passwordField {
+  position: relative;
+  width: 100%;
+}
+
+.passwordField input {
+  width: 100%;
+  padding-right: 40px; 
+  box-sizing: border-box;
+}
+
+.passwordField .eyeIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+.eyeIcon {
+    color: #888;
+}
+

@@ -1,0 +1,40 @@
+body {
+    /* margin: 0; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Gray 4;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    /* margin: 0 auto; */
+    background-color: white;
+    margin-left: 50px;
+    background-color: #FFFFFF;
+}
+.container h1 {
+    font-size: 20px;
+}
+.text p {
+    font-size: 14px;
+    margin: 0;
+    align-self: flex-start;
+}
+.container img {
+    width: 10%;
+    border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

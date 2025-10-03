@@ -1,5 +1,5 @@
 .logo {
-    width: 50%;
+    width: 30%;
 }
 .footer {
     display: flex;
@@ -26,6 +26,9 @@ a {
     align-self: flex-start;
     color: #677D88;
     font-size: 12px;
+}
+a:hover {
+    color: #59C7FC;
 }
 h4 {
     color: #303B40;

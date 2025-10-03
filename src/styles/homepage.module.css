@@ -8,13 +8,21 @@
     
 }
 .text {
-    /* max-width: 400px;
-    margin-top: 30px; */
+    width: 40%;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+     padding-bottom: 80px;
     border: 5px soid rgb(54, 53, 53);
+   
+}
+.text h2 {
+    width: 9em;
+    /* letter-spacing: 1px; */
 }
 .main_car {
-    width: 40%;
+    width: 50%;
     height: auto;
+    position: relative;
     
 }
 .home_button {
@@ -24,13 +32,42 @@
     border-radius: 5px;
     padding: 10px 20px;
     border: none;
+    margin-top: 30px;
+    align-self: flex-start;
+    margin-left: -280px;
+    /* z-index: 1; */
 }
 h2 {
     color: #303B40;
     font-size: 30px;
+    font-weight: 800;
+    align-self: flex-start;
 }
 p {
     color: #677D88;
     font-size: 12px;
-    /* width: 50%; */
+    margin-top: 20px;
+    width: 280px;
+    align-self: flex-start;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+h2 {
+    align-self: flex-start;
+}
+.background {
+    height: 50vh;
+    width: 200vh;
+    margin-top: -10px;
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+    /* bottom: 30%; */
+    /* position: absolute; */
+    /* bottom: 0;
+    right: 0; */
 }
