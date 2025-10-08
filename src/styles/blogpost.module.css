@@ -21,10 +21,12 @@ body {
 }
 .container h1 {
     font-size: 20px;
+    color: #000;
 }
 .text p {
     font-size: 14px;
     margin: 0;
+    color: #000;
     align-self: flex-start;
 }
 .container img {
