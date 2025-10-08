@@ -112,4 +112,7 @@ p {
 .eyeIcon {
     color: #888;
 }
-
+.error {
+    font-size: 12px;
+    color: rgb(249, 149, 149);
+}
